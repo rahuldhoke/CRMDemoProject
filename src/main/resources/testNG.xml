@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="This is Test Suite  - FaceBook Testing Suite">
+		
+		<listeners>
+			
+			<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+		
+		</listeners>
+			
+			<test name="FaceBook Login Test ">
+		
+			
+			<classes>	
+				
+				
+				<class name="com.qa.test.cases.LoginPageTest"></class>
+				
+				<class name="com.qa.test.cases.FaceBookMainPageTest"></class>
+			
+			
+
+			</classes>
+		</test>	
+</suite>
